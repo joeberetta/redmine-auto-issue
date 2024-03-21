@@ -1,0 +1,33 @@
+{
+  "name": "redmine-auto-issue",
+  "version": "1.0.0",
+  "description": "Tiny cli for writing multiple issues inside single md file and syncing it with [redmine](http://redmine.org/)",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node .",
+    "start:sync": "node . --sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeberetta/redmine-auto-issue.git"
+  },
+  "keywords": [
+    "redmine",
+    "cli"
+  ],
+  "author": {
+    "email": "shakhrukh.shaymardonov.97@gmail.com",
+    "name": "Joe Beretta",
+    "url": "https://github.com/joeberetta"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@textlint/markdown-to-ast": "^14.0.4",
+    "front-matter": "^4.0.2",
+    "superagent": "^8.1.2"
+  },
+  "devDependencies": {
+    "@types/superagent": "^8.1.5"
+  }
+}

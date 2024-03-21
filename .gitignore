@@ -1,0 +1,4 @@
+issues*.md
+issues*.json
+
+node_modules
